@@ -1,6 +1,6 @@
 <h1>Cleantech</h1>
 
-<h6>Demo application which shows locations of hydrogen fuel stations in the State of California, and models optimal routing from a desired location. Built by Joe Fedota for the 2020 Stanford Cleantech Hackathon.</h3>
+<h6>Demo application which shows locations of hydrogen fuel stations in the State of California, and models optimal routing from a desired location. Built by Joe Fedota for the 2020 Stanford Cleantech Hackathon. Part of a winning project created by a team of Sophomore Berkeley Undergraduates.</h3>
 <div>
 <b>List of features: </b>
 <ol>

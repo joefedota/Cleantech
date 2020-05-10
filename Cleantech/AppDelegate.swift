@@ -10,11 +10,23 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var stateController = StateController(route: "dummy")
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /*guard let tabBarController = window?.rootViewController as? UITabBarController,
+            let viewControllers = tabBarController.viewControllers else {
+                return true
+        }
+        for (index, viewController) in viewControllers.enumerated(){
+            if let viewCon = viewController as? ViewController {
+                viewCon.stateController = self.stateController
+            }
+            if let routeCon = viewController as? RoutingViewController {
+                routeCon.stateController = self.stateController
+            }
+        }*/
         return true
     }
 
